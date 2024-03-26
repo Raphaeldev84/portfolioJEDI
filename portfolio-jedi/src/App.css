@@ -1,0 +1,48 @@
+.App{
+  display: flex;
+  /* alinha horizontalmente */
+  justify-content: center;
+  /* alinha verticalmente */
+  align-items: center;
+  height: 100vh;
+}
+ 
+.background{
+  background: #fff;
+  width: 1100px;
+  height: 600px;
+  border-radius: 24px;
+  border: dotted red 3px;
+  padding: 60px;
+  display: flex;
+}
+ 
+.card{
+  background: rgb(123, 30, 30);
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px -5px 18px 0px #010707;
+}
+ 
+.image{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  box-shadow: 5px -5px 18px 0px #010707;
+}
+ 
+.left{
+  width: 50%;
+  display: flex;
+  /* inverte os alinhamentos */
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+ 
+.right{
+  display: inline-grid;
+  width: 50%;
+  justify-content: center;
+}
